@@ -1,0 +1,21 @@
+
+#!/bin/bash
+
+#PBS -P LASSO_EXPT
+#PBS -j oe
+#PBS -N Job_Name
+
+#PBS -q parallel12
+#PBS -l select=1:ncpus=12:mem=10GB
+
+cd $PBS_O_WORKDIR;   ## this line is needed, do not delete and change.
+np=$( cat  ${PBS_NODEFILE} |wc -l );  ### get number of CPUs, do not change
+
+##--- Put your exec/application commands below ---
+##--- Put your exec/application commands below ---
+##--- For example:
+source /etc/profile.d/modules.sh
+source /app1/ebenv R-4.2.1
+
+Rscript LASSO.R
+

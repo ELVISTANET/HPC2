@@ -1,0 +1,16 @@
+/var/spool/pbs/mom_priv/jobs/5678682.venus01.SC: line 17: /etc/profile.d/modules.sh: No such file or directory
+/var/spool/pbs/mom_priv/jobs/5678682.venus01.SC: line 20: Rscript: command not found
+      ======================================================================================
+     Resource Usage on 2023-11-01 14:59:21.533448:
+     JobId: 5678682.venus01  				 Project: LASSO_EXPT 
+     Submission Host: atlas8-c01 
+     Exit Status: 0
+     NCPUs Requested: 12 				 NCPUs Used: 12
+     Memory Requested: 10gb 				 Memory Used: 0kb 
+     Vmem Used: 0kb
+     CPU Time Used: 00:00:00 
+     Walltime requested: 240:00:00 			 Walltime Used: 00:00:03
+     Submit Time:  Wed Nov  1 14:59:14 2023 		 Start Time: Wed Nov  1 14:59:18 2023 
+     End Time: Wed Nov  1 14:59:21 2023 
+     Execution Nodes Used: (atlas6-c09:ncpus=12:mem=10485760kb)
+     ======================================================================================
